@@ -1,0 +1,181 @@
+[
+{
+  "model": "api.organization",
+  "pk": 1,
+  "fields": {
+    "title": "Google",
+    "creation_date": "2020-09-22",
+    "location": "Californiya"
+  }
+},
+{
+  "model": "api.organization",
+  "pk": 2,
+  "fields": {
+    "title": "Apple",
+    "creation_date": "2021-06-08",
+    "location": "Cupertino"
+  }
+},
+{
+  "model": "api.organization",
+  "pk": 3,
+  "fields": {
+    "title": "Boeing",
+    "creation_date": "2021-06-08",
+    "location": "USA"
+  }
+},
+{
+  "model": "api.links",
+  "pk": 1,
+  "fields": {
+    "company": 1,
+    "link": "http://google.com"
+  }
+},
+{
+  "model": "api.links",
+  "pk": 2,
+  "fields": {
+    "company": 2,
+    "link": "http://apple.com"
+  }
+},
+{
+  "model": "api.links",
+  "pk": 3,
+  "fields": {
+    "company": 3,
+    "link": "http://boeing.com"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 1,
+  "fields": {
+    "company": 3,
+    "title": "arms industry"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 2,
+  "fields": {
+    "company": 3,
+    "title": "aircraft construction"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 3,
+  "fields": {
+    "company": 3,
+    "title": "aviation industry"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 4,
+  "fields": {
+    "company": 3,
+    "title": "space industry"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 5,
+  "fields": {
+    "company": 1,
+    "title": "information technology"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 6,
+  "fields": {
+    "company": 1,
+    "title": "Internet marketing"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 7,
+  "fields": {
+    "company": 1,
+    "title": "software industry"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 8,
+  "fields": {
+    "company": 2,
+    "title": "electronics"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 9,
+  "fields": {
+    "company": 2,
+    "title": "information technology"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 10,
+  "fields": {
+    "company": 2,
+    "title": "digital distribution"
+  }
+},
+{
+  "model": "api.areasofactivity",
+  "pk": 11,
+  "fields": {
+    "company": 2,
+    "title": "consumer electronics"
+  }
+},
+{
+  "model": "api.topmanagers",
+  "pk": 1,
+  "fields": {
+    "company": 1,
+    "name": "Sundar Pichay"
+  }
+},
+{
+  "model": "api.topmanagers",
+  "pk": 2,
+  "fields": {
+    "company": 1,
+    "name": "Another One"
+  }
+},
+{
+  "model": "api.topmanagers",
+  "pk": 3,
+  "fields": {
+    "company": 2,
+    "name": "Tim Cock"
+  }
+},
+{
+  "model": "api.topmanagers",
+  "pk": 4,
+  "fields": {
+    "company": 3,
+    "name": "Dave Calhoun"
+  }
+},
+{
+  "model": "api.topmanagers",
+  "pk": 5,
+  "fields": {
+    "company": 3,
+    "name": "Dennis Muilenburg"
+  }
+}
+]
